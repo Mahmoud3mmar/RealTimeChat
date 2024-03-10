@@ -4,8 +4,8 @@ import { Server } from 'socket.io'
 import ConnectToDB from './db/connection.js'
 import  jwt  from 'jsonwebtoken'
 import dotenv from 'dotenv'
-import MessageModel from './models/message.model.js'
-import UserModel from './models/User.model.js'
+import MessageModel from './models/message.model.ts'
+import UserModel from './models/User.model.ts'
 
 
 dotenv.config()
